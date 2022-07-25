@@ -1,3 +1,4 @@
+import "../../Content/Style/header.scss";
 const Layout = ({ children }) => {
   return (
     <>

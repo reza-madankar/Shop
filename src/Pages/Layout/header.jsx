@@ -2,17 +2,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "../../Content/Style/header.scss";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import "../../Content/Style/custom.scss";
+import Button from 'react-bootstrap/Button';
 
 function NavbarDarkExample() {
   return (
   <div>
     <p className='ho'>sdsdsadas</p>
-    <Navbar fluid="md" variant="black" bg="white" expand="lg">
-      <Container fluid="md" center>
+    <Navbar bg="white" expand="lg" >
+      <Container>
        <Nav>
-            <NavDropdown
+            <NavDropdown  class="text-danger"
               id="nav-dropdown-dark-example"
               title="Features"
               menuVariant="dark"
@@ -89,10 +90,10 @@ function NavbarDarkExample() {
             </NavDropdown>  
           </Nav>
           
-         
+          <Button>heloo</Button>
       </Container>
     </Navbar>
-   
+  
     <button classnaem='bt1' type="button" class="btn btn-danger">xcvdfgvd</button>
       </div>
   );

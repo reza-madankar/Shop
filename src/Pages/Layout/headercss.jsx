@@ -3,7 +3,7 @@ import "../../Content/Style/custom.scss";
 function Headercss() {
     return (  
 
-        <div className='divdivdiv'> Hellloooooo</div>
+        <div className='divdivdiv'>reza madankare koni</div>
     );
 }
 

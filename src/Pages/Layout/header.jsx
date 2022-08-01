@@ -8,12 +8,12 @@ import Button from 'react-bootstrap/Button';
 
 function NavbarDarkExample() {
   return (
-  <div>
-    <p className='ho'>sdsdsadas</p>
-    <Navbar bg="white" expand="lg" >
-      <Container>
-       <Nav>
-            <NavDropdown  class="text-danger"
+  <div >
+
+    <Navbar  bg="white" expand="lg" >
+      <Container Class="container text-center">
+       <Nav >
+            <NavDropdown 
               id="nav-dropdown-dark-example"
               title="Features"
               menuVariant="dark"
@@ -89,12 +89,10 @@ function NavbarDarkExample() {
               </NavDropdown.Item>
             </NavDropdown>  
           </Nav>
-          
-          <Button>heloo</Button>
       </Container>
     </Navbar>
   
-    <button classnaem='bt1' type="button" class="btn btn-danger">xcvdfgvd</button>
+
       </div>
   );
 }

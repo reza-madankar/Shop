@@ -13,6 +13,9 @@ const Layout = ({ children }) => {
             <a href="#">Home3</a>
           </li>
           <li>
+            <a href="#">Home4</a>
+          </li>
+          <li>
             <a href="#">Contact Us</a>
           </li>
           <li>

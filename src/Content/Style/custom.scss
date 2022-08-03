@@ -1,10 +1,39 @@
-@mixin  text {
-    color: red;
-    font-size: 100px;
-    font-weight: bold;
-    font-style: italic
+.header{
+
+    position: relative;
+
+}
+div{  
+    
+    font-size: 18px;  
+   
+    p{
+padding-left: 10px;
+border-left: 1px solid gray;
+height: 15px;
+margin-top: 15px;
+
+    }
+    h2{
+        border-bottom: 1px solid rgb(218, 218, 218);
+    }
+    p1{
+        color: rgb(76, 75, 75);
+    margin-left: 590px;
+    margin-top: 13px;
+        font-size: 15px;
+    }
+ 
+}
+.flone{
+
+font-size: 30px;
+margin-top: 100px;
     
 }
-.divdivdiv{
-    @include text;
+.icon{
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    text-align:left;
+
 }

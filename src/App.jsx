@@ -11,10 +11,11 @@ const App = () => {
   return (
     <BrowserRouter>
  <Header />
+ <OverView />
       <Layout> 
-     
+   
         <Routes>
-          <Route path="/" element={<OverView />} />
+         
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Layout> 

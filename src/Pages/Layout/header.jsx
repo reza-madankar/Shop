@@ -10,8 +10,6 @@ import Row from 'react-bootstrap/Row';
 function NavbarDarkExample() {
   return (
   <div className='header' >
- 
- 
     <Navbar>
       <Container>
         <Nav>
@@ -36,12 +34,12 @@ function NavbarDarkExample() {
   <NavDropdown.Item href="#action/3.1">Features:</NavDropdown.Item>
            </NavDropdown>
            <p> </p>
-           <NavDropdown 
+           <NavDropdown
               id="nav-dropdown-dark-example"
               title="Call us 3965410"
               menuVariant="dark">
                  </NavDropdown>
-                 <p1>Free delivery on order over <span> $200</span> </p1>
+                 <p1>Free delivery on order over <span className='span1'> $200</span> </p1>
         </Nav>
       </Container>
     </Navbar>
@@ -137,14 +135,13 @@ function NavbarDarkExample() {
           
       </Container>
         
-      <span> 
-        
+<span> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 <div className='icon'>
-<i class="glyphicon glyphicon-cloud">/</i>
-<i class="glyphicon glyphicon-remove">/</i>
-<i class="glyphicon glyphicon-user">/</i>
-<i class="glyphicon glyphicon-envelope">/</i>
-<i class="glyphicon glyphicon-thumbs-up">/</i>
+<i class="fa fa-search"></i>
+<i class="fa fa-heart-o"></i>
+<i class="fa fa-sticky-note-o"></i>
+
     </div></span>
     </Navbar>
   

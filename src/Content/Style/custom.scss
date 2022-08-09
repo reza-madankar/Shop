@@ -8,18 +8,20 @@ div{
     font-size: 18px;  
    
     p{
-padding-left: 10px;
+padding-left: 30px;
 border-left: 1px solid gray;
-height: 15px;
+height: 10px;
 margin-top: 15px;
 
     }
     h2{
+
         border-bottom: 1px solid rgb(218, 218, 218);
     }
     p1{
+        
         color: rgb(76, 75, 75);
-    margin-left: 590px;
+    margin-left: 550px;
     margin-top: 13px;
         font-size: 15px;
     }
@@ -37,3 +39,35 @@ margin-top: 100px;
     text-align:left;
 
 }
+.span1{
+    color: red;
+}
+.icon{
+    color: rgb(60, 60, 60);
+    font-size: 25px !important;
+
+}
+.welcome{
+    text-align: center;
+}
+.welcome1{
+    text-align: center;
+    font-size: 15px;
+}
+.shopping {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-top: 70px;
+  }
+  
+  .shopping > div {
+    color: rgb(0, 0, 0);
+    background-color: #ececec;
+    width: 450px;
+    margin: 10px;
+    text-align: left;
+    line-height: 300px;
+    font-size: 30px;
+  }
+  

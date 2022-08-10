@@ -50,7 +50,7 @@ function NavbarDarkExample() {
  
 
   
-    <Navbar  bg="white" expand="lg" >
+    <Navbar   bg="white" expand="lg"  >
       <Container className="justify-content-md-center">
        <Nav >
                   

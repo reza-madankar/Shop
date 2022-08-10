@@ -1,4 +1,4 @@
-import "../../Content/Style/header.scss";
+import "../../Content/Style/custom.scss";
 const Layout = ({ children }) => {
   return (
     <>

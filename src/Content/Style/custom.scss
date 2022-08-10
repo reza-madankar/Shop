@@ -94,23 +94,84 @@ text-decoration: underline;
     font-size: 30px;
   }
   .watches{
- 
+    position: relative;
     display: flex;
     flex-direction: row;
   }
   .watch{
-   
+   position: relative;
  width: 400px;
  transition: all 0.4s ease 0s;
-
  margin-left: 50px;
   }
   .watch:hover{
     transform: scale(1.2);
-  
-   
   }
 .textonpic{
     font-size: 50px;
     color: red;
+    .pic1{
+       
+        position: absolute;
+       bottom:350px;
+        left: 80px;
+        font-size: 36px;
+        color: #915342;
+        font-weight: 600;
+        margin: 0;
+        font-family: "Cormorant Garamond";
+    }
+    .pic2{
+ 
+        position: absolute;
+       bottom:350px;
+        left: 550px;
+        font-size: 36px;
+        color: #915342;
+        font-weight: 600;
+        margin: 0;
+        font-family: "Cormorant Garamond";
+    }
+    .pic3{
+        font-size: 36px;
+        color: #915342;
+        font-weight: 600;
+        margin: 0;
+        font-family: "Cormorant Garamond";
+        position: absolute;
+       bottom:350px;
+        left: 950px;
+    }
+    .pic4{
+       
+        position: absolute;
+        bottom:310px;
+        left: 80px;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 600;
+        margin: 0;
+        font-family: "Cormorant Garamond";
+    }
+    .pic5{
+ 
+        position: absolute;
+        bottom:310px;
+        left: 550px;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 600;
+        margin: 0;
+        font-family: "Cormorant Garamond";
+    }
+    .pic6{
+        font-size: 15px;
+        color: #212121;
+        font-weight: 600;
+        margin: 0;
+        font-family: "Cormorant Garamond";
+        position: absolute;
+       bottom:310px;
+        left: 950px;
+    }
 }

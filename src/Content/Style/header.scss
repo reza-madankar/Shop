@@ -1,0 +1,53 @@
+#topHeader {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 45px;
+
+  .drpMenu {
+    display: flex;
+
+    .navItem {
+      padding-right: 15px;
+      margin-right: 15px;
+
+      &:not(:last-child)::before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 1px;
+        background-color: #d5d4d4;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      a {
+        transition: 0.3s all;
+
+        &:hover {
+          color: #a749ff;
+          background-color: white;
+        }
+      }
+
+      div.dropdown-menu {
+        a {
+          font-size: 13px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  .description {
+    p {
+      margin: 0;
+
+      .price {
+        color: red;
+      }
+    }
+  }
+}

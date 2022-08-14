@@ -1,11 +1,10 @@
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../../../Content/Style/header.scss";
 
 const TopHeader = () => {
   return (
-    <div className="header" id="topHeader">
+    <div id="topHeader">
       <div className="drpMenu">
         <NavDropdown className="navItem" title="English">
           <NavDropdown.Item href="#action/3.1">Arabic</NavDropdown.Item>
@@ -21,7 +20,7 @@ const TopHeader = () => {
           <NavDropdown.Item href="#action/3.1">Dirham (AED)</NavDropdown.Item>
         </NavDropdown>
 
-        <a href="#" className="navItem">Call us 3965410</a>
+        <a href="#" className="navItem">Call Us 3965410</a>
       </div>
       <div className="description">
         <p>

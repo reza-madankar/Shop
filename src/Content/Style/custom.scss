@@ -71,7 +71,7 @@ text-decoration: underline;
 .welcome1{
     text-align: center;
     font-size: 15px;
-}
+}   
 .shopping {
     display: flex;
     flex-wrap: nowrap;
@@ -87,27 +87,30 @@ text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    width: 450px;
-    margin: 10px;
+
     text-align: left;
     line-height: 300px;
     font-size: 30px;
   }
   .watches{
+   display: flex;
+   overflow: hidden;
     position: relative;
-    display: flex;
-    flex-direction: row;
+   
+ 
   }
   .watch{
-   position: relative;
  width: 400px;
  transition: all 0.4s ease 0s;
  margin-left: 50px;
   }
   .watch:hover{
     transform: scale(1.2);
+  
   }
 .textonpic{
+   
+    padding-right: 150px;
     font-size: 50px;
     color: red;
     .pic1{

@@ -7,7 +7,6 @@ const Overview = () => {
       <h1 className="welcome"> Wellcome to Online Site</h1><br></br>
       <h1 className="welcome1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labor<br></br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br></br>ut aliquip ex ea commo consequat irure</h1>
       <div className="shopping">
-      
        <div className="watches" >
        <img src={"https://template.hasthemes.com/flone/flone/assets/img/banner/banner-1.jpg"} className="watch"/>
        <img src={"https://template.hasthemes.com/flone/flone/assets/img/banner/banner-2.jpg"} className="watch" />

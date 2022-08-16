@@ -1,3 +1,8 @@
+@mixin boldtext {
+  font-size: 13px;
+  font-weight: bold;
+  
+}
 #topHeader {
   display: flex;
   justify-content: space-between;
@@ -61,7 +66,9 @@
   .logo {
     width: 25%;
   }
-
+  .navDropdownhead {
+ @include boldtext
+}
   .menus {
     width: 50%;
     display: flex;

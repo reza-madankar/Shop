@@ -1,17 +1,9 @@
-
-  @mixin boldHead{
-    color: #a749ff;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: sans-serif;
-  }
- 
 #topHeader {
   display: flex;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  line-height: 40px;
+  line-height: 55px;
   color: #555252;
 
   .drpMenu {
@@ -64,33 +56,19 @@
 #menu {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
- 
-  .table{
-    color: rgb(0, 0, 0);
-    justify-content: space-between ;
-  }
+  padding: 15px ;
+
   .logo {
     width: 25%;
-    
-    h1{
-      font-size: 35px;
-      font-weight: bolder;
-    }
   }
-
-  .navDropdownhead{
-   @include boldHead;
-  }
- 
 
   .menus {
-    
     width: 50%;
     display: flex;
     justify-content: space-between;
     line-height: 35px;
     font-size: 16px;
+    
 
     a{
         color: #666666;

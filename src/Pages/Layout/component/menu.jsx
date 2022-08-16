@@ -1,18 +1,14 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Table from 'react-bootstrap/Table';
 
-function Menu() { 
- 
+function Menu() {
   return (
-
-    
     <div id="menu">
       <div className="logo">
         <h1>Flone.</h1>
       </div>
-      <div  className="menus" >
-        <NavDropdown  title="Home">
-          <NavDropdown.Item  className="navDropdownhead" href="#action/3.1">Demo Group 01</NavDropdown.Item>
+      <div className="menus">
+        <NavDropdown title="Home">
+        <NavDropdown.Item  className="navDropdownhead" href="#action/3.1">Demo Group 01</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Home 1-Fashion</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Home 2-Fashion</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Home 3-Fashion</NavDropdown.Item>
@@ -48,9 +44,8 @@ function Menu() {
           <NavDropdown.Item href="#action/3.3">Home 31-Black Friday</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Home 32-Valentine Day</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Home 34-Medical Equipment</NavDropdown.Item>
-        
-        </NavDropdown>
-        <NavDropdown title="Shop">
+          </NavDropdown>
+          <NavDropdown title="Shop">
           <NavDropdown.Item className="navDropdownhead" href="#action/3.1">Shop Layout</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Standard Style</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Grid Filter Style</NavDropdown.Item>
@@ -72,13 +67,13 @@ function Menu() {
           <NavDropdown.Item href="#action/3.4">Affilate Style</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Fixed Image Style</NavDropdown.Item>
           <img src="https://template.hasthemes.com/flone/flone/assets/img/banner/banner-12.png"></img>
-
-        </NavDropdown>
+          </NavDropdown>
+        
         <a href="#" className="navItem">
           Collection
         </a>
         <NavDropdown title="Pages">
-          <NavDropdown.Item href="#action/3.1">About Us</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1">About Us</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Cart Page</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Checkout</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Whishlist</NavDropdown.Item>
@@ -88,12 +83,16 @@ function Menu() {
           <NavDropdown.Item href="#action/3.4">404 Page</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Blog">
-          <NavDropdown.Item href="#action/3.1">Blog Standard</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1">Blog Standard</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Blog No Sidebar</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Blog Right Sidebar</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Blog Deatails 1</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Blog Deatails 2</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Blog Deatails 3</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">Features:</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
         </NavDropdown>
         <a href="#" className="navItem">
           About
@@ -113,3 +112,6 @@ function Menu() {
 }
 
 export default Menu;
+
+
+

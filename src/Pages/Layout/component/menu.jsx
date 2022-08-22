@@ -1,6 +1,10 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { useState } from "react";
+import { NavDropdown } from "react-bootstrap";
+import SearchBox from './search';
 
 function Menu() {
+  const [searchVisible, setSearchVisible] = useState(false);
+
   return (
     <div id="menu">
       <div className="logo">
@@ -210,7 +214,13 @@ function Menu() {
         </a>
       </div>
       <div className="assistant">
-        <span className="fa fa-search"></span>
+        <span
+          className="fa fa-search"
+          onClick={() => setSearchVisible(!searchVisible)}
+        ></span>
+
+        {searchVisible === true && <SearchBox />}
+
         <span className="fa fa-user-o"></span>
         <span className="fa fa-heart"></span>
         <span className="fa fa-shopping-basket"></span>

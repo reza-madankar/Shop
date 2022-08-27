@@ -4,7 +4,7 @@ import SearchBox from './search';
 import NoteBox from './note';
 import BagBox from './bag';
 function Menu() {
-  const [searchVisible, setsearchVisible] = useState(false);
+  const [searchVisible, setSearchVisible] = useState(false);
   const [noteVisible, setnoteVisible] = useState(false);
   const [bagVisible, setbagVisible] = useState(false);
   return (
@@ -236,10 +236,11 @@ function Menu() {
    
       <span
           className="fa fa-search"
-          onClick={() => setsearchVisible(current => !current)}
+          onClick={() => setSearchVisible(!searchVisible)}
+          
         ></span>
 
-        {searchVisible === true && <SearchBox />}
+        {searchVisible === true && <SearchBox setSearchVisible={setSearchVisible} />}
         <span className="fa fa-user-o"
          onClick={() => setnoteVisible(!noteVisible)}></span>
 

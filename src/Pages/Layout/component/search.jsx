@@ -1,16 +1,13 @@
-import { useState } from "react";
 
-
-const SearchBox = ({ children }) => {
+const SearchBox = (props) => {
+  
     return (
         
         <>
-        <div  onClick={() => setsearchVisible(current => !current)} className="overlay">
+<div onClick={alert("Hello World!")} className="overlay" ></div>
         <div className="searchBox">
-  
   <input type="text" placeholder="Search"></input>
   <button type="submit">Submit</button>
-        </div>
         </div>
         </>
     )

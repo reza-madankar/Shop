@@ -1,8 +1,10 @@
 
 const BagBox = ({ children }) => {
+  
     return (
-      
-        <div className="bagBox">
+      <>
+      <div onClick={alert("Hello World!")} className="overlay"> </div>
+        <div  className="bagBox" >
               <img  src="https://template.hasthemes.com/flone/flone/assets/img/cart/cart-1.png"></img>
               <div className="text">T- Shart & Jeans<br></br><br></br><br></br><br></br><br></br>
               Qty: 02<br></br><br></br><br></br><br></br><br></br>
@@ -20,9 +22,10 @@ const BagBox = ({ children }) => {
               <h1>Total:</h1>
               <button>View Card</button><br></br><br></br><br></br>
               <button> Check Out</button>
-           
+              
         </div>
         
+        </>
     )
   };
   

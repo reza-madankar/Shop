@@ -1,6 +1,6 @@
 
 const SearchBox = (props) => {
-  
+const makemistakes = () => {SearchBox(false)}
     return (
         
         <>

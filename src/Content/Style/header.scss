@@ -141,38 +141,24 @@
 
     .searchBox {
       font-family: sans-serif;
-      color: #5e5e5e;
-      left: 900px;
       position: absolute;
-      height: 70px;
-      width: 270px;
+      width: 100;
+      display: flex;
       padding: 5px;
-      font-size: 25px;
-      background-color: white;
-      box-shadow: 0.3px 0.3px 0.3px 0.3px rgb(222, 221, 221);
-      transition: all 3s ease-in-out;
-      text-align: left;
       border: 0.3px solid rgb(236, 235, 235);
 
-      cursor: pointer;
       input {
         font-size: 15px;
         height: 40px;
-        width: 200px;
         padding: 10px;
         border: 0.9 solid rgb(237, 237, 237);
-        margin-top: 10px;
       }
       button {
-        position: absolute;
-        text-align: center;
-        font-size: 10px;
         height: 40px;
-        width: 45px;
         background-color: #a749ff;
         border: none;
-        color: #e4e4e4;
-        margin-top: 10px;
+        color: #ffffff;
+        margin-left: 10px;
       }
     }
     .overlay {

@@ -134,135 +134,130 @@
       color: #666666;
       cursor: pointer;
 
-
       &:hover {
         color: #a749ff;
-      
       }
     }
-  }
-}
-.searchBox{
-  font-family: sans-serif;
-  color: #5e5e5e;
-  left: 900px;
-  position: absolute;
-  height: 70px;
-  width: 270px;
-  padding: 5px;
-  font-size: 25px;
-  background-color:white ;
-  box-shadow:0.3px 0.3px 0.3px 0.3px rgb(222, 221, 221);
-  transition: all 3s ease-in-out; 
-  text-align: left; 
-  border: 0.3px solid rgb(236, 235, 235);
- 
-  cursor: pointer;  
-  input{
-    font-size: 15px;
-    height: 40px;
-    width: 200px;
-    padding: 10px;
-    border: 0.9 solid rgb(237, 237, 237);
-    margin-top: 10px;
-   }
-   button{
-    position: absolute;
-    text-align: center;
-    font-size: 10px;
-    height: 40px;
-    width: 45px;
-    background-color: #a749ff;
-    border: none;
-    color: #e4e4e4;
-    margin-top: 10px;
-   }
-}
-.noteBox{
-  font-size: 15px;
-  font-family: sans-serif;
-  color: #5e5e5e;
- right: 120px;
-  position: absolute;
-  height: 140px;
-  width: 110px;
-  padding: 10px;
-  background-color:white ;
-  box-shadow:0.5px 0.5px 0.5px 0.5px rgb(188, 188, 188);
-  transition: all 3s ease-in-out; 
-  text-align: left; 
 
-cursor: pointer;
- h1{
-  font-size: 15px;
-  padding-bottom: 3px; 
-padding: 5px;
- }
-}
+    .searchBox {
+      font-family: sans-serif;
+      color: #5e5e5e;
+      left: 900px;
+      position: absolute;
+      height: 70px;
+      width: 270px;
+      padding: 5px;
+      font-size: 25px;
+      background-color: white;
+      box-shadow: 0.3px 0.3px 0.3px 0.3px rgb(222, 221, 221);
+      transition: all 3s ease-in-out;
+      text-align: left;
+      border: 0.3px solid rgb(236, 235, 235);
 
-.bagBox{
-position: relative;
-  font-family: sans-serif;
-  color: #5e5e5e;
- right: 50px;
-  height: 550px;
-  width: 350px;
-  padding: 20px;
-  background-color:white ;
-  box-shadow:0.5px 0.5px 0.5px 0.5px rgb(188, 188, 188);
-  transition: all 3s ease-in-out; 
-  text-align: center;   
-cursor: pointer;
-h1{
-  padding-top: 20px;
-  font-size: 15px;
-  text-align: left;
-}
-button{
-  background-color: unset;
-  height: 50px;
- width: 270px;
-font-size: 15px;
-}
-img{
-  padding-top: 20px;
-  padding-bottom:20px;
-  margin-right: 190px;
-  margin-top: 5px;
-  text-align: left;
-  
-}
-
-}
-.borderline{
-  width: 80%;
-border-bottom: 0.3px solid rgb(207, 204, 204);
-margin-left: 20px;
-
-}
-.text{
-  text-align: left;
-  position: absolute;
-  left: 150px;
-  font-size: 15px;
-   top: 50px;
-   
-  }
-  .text1{
-text-align: left;
-    position: absolute;
-    left: 150px;
-    font-size: 15px;
-     top: 180px;
-     
+      cursor: pointer;
+      input {
+        font-size: 15px;
+        height: 40px;
+        width: 200px;
+        padding: 10px;
+        border: 0.9 solid rgb(237, 237, 237);
+        margin-top: 10px;
+      }
+      button {
+        position: absolute;
+        text-align: center;
+        font-size: 10px;
+        height: 40px;
+        width: 45px;
+        background-color: #a749ff;
+        border: none;
+        color: #e4e4e4;
+        margin-top: 10px;
+      }
     }
-    .overlay{
+    .overlay {
       position: absolute;
       left: 0;
       right: 0;
       top: 0;
       bottom: 0;
-      background-color: #a749ff;
+      background-color: #ffffff00;
       z-index: 0;
       cursor: pointer;
     }
+  }
+}
+
+.noteBox {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #5e5e5e;
+  right: 120px;
+  position: absolute;
+  height: 140px;
+  width: 110px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(188, 188, 188);
+  transition: all 3s ease-in-out;
+  text-align: left;
+
+  cursor: pointer;
+  h1 {
+    font-size: 15px;
+    padding-bottom: 3px;
+    padding: 5px;
+  }
+}
+
+.bagBox {
+  position: relative;
+  font-family: sans-serif;
+  color: #5e5e5e;
+  right: 50px;
+  height: 550px;
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(188, 188, 188);
+  transition: all 3s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+  h1 {
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: left;
+  }
+  button {
+    background-color: unset;
+    height: 50px;
+    width: 270px;
+    font-size: 15px;
+  }
+  img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 190px;
+    margin-top: 5px;
+    text-align: left;
+  }
+}
+.borderline {
+  width: 80%;
+  border-bottom: 0.3px solid rgb(207, 204, 204);
+  margin-left: 20px;
+}
+.text {
+  text-align: left;
+  position: absolute;
+  left: 150px;
+  font-size: 15px;
+  top: 50px;
+}
+.text1 {
+  text-align: left;
+  position: absolute;
+  left: 150px;
+  font-size: 15px;
+  top: 180px;
+}

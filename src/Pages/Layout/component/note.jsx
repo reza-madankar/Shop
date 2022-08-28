@@ -1,6 +1,10 @@
-
-const NoteBox = ({ children }) => {
+const NoteBox = (props) => {
     return (
+        <>
+        <div
+        onClick={() => props.setnoteVisible(false)}
+        className="overlay"
+      ></div>
         <div className="noteBox">
   <h1>Login</h1>
   <h1>Register</h1>
@@ -8,7 +12,7 @@ const NoteBox = ({ children }) => {
   <h1>My Account</h1>
 
         </div>
-  
+        </>
     )
   };
   

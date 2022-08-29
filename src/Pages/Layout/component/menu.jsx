@@ -14,7 +14,8 @@ function Menu() {
         <h1>Flone.</h1>
       </div>
       <div className="menus">
-        <NavDropdown title="Home">
+        <NavDropdown title="Home" >
+          
           <div className="rowMenu">
             <div className="colMenu">
               <NavDropdown.Item className="navDropdownhead" href="#action/3.1">

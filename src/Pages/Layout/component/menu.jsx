@@ -4,6 +4,7 @@ import { NavDropdown } from "react-bootstrap";
 import SearchBox from "./search";
 import NoteBox from "./note";
 import BagBox from "./bag";
+
 function Menu() {
   const [searchVisible, setSearchVisible] = useState(false);
   const [noteVisible, setnoteVisible] = useState(false);
@@ -14,8 +15,7 @@ function Menu() {
         <h1>Flone.</h1>
       </div>
       <div className="menus">
-        <NavDropdown title="Home" >
-          
+        <NavDropdown title="Home">
           <div className="rowMenu">
             <div className="colMenu">
               <NavDropdown.Item className="navDropdownhead" href="#action/3.1">

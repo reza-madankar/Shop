@@ -1,0 +1,314 @@
+@mixin boldtext {
+  font-size: 13px;
+  font-weight: bold;
+}
+#topHeader {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 60px;
+  color: #555252;
+
+  .drpMenu {
+    display: flex;
+
+    .navItem {
+      color: #656565;
+      padding-right: 35px;
+      margin-right: 15px;
+      text-decoration: none;
+
+      &:not(:last-child)::before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 1px;
+        background-color: #d5d4d4;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      a {
+        transition: 0.3s all;
+
+        &:hover {
+          color: #a749ff;
+          background-color: white;
+        }
+
+        &.dropdown-item {
+          font-size: 13px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  .description {
+    p {
+      margin: 0;
+
+      .price {
+        color: red;
+      }
+    }
+  }
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff00;
+    z-index: 0;
+    cursor: pointer;
+  }
+  .logo {
+    width: 25%;
+  }
+  .navDropdownhead {
+    @include boldtext;
+  }
+
+  .menus {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    font-size: 20px;
+
+    a {
+      color: #666666;
+      font-size: 13px;
+      position: relative;
+      transition: 0.3s all;
+
+      &:hover {
+        color: #a749ff;
+        background-color: unset;
+      }
+    }
+
+    .rowMenu {
+      display: flex;
+      animation: fadein 1s;
+    }
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .colMenu {
+      padding: 2px 30px;
+
+      a {
+        padding-left: 0;
+
+        &::before {
+          background: #a749ff;
+          border-radius: 50%;
+          content: "";
+          height: 7px;
+          left: -5px;
+          opacity: 0;
+          position: absolute;
+          top: 18px;
+          transition: all 0.3s ease-in-out 0s;
+          width: 7px;
+          z-index: 999;
+        }
+
+        &:hover {
+          padding-left: 20px;
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.assistant {
+  width: 25%;
+  line-height: 50%;
+  text-align: right;
+
+  span {
+    line-height: 45px;
+    font-size: 16px;
+    padding-left: 25px;
+    color: #666666;
+    cursor: pointer;
+
+    &:hover {
+      color: #a749ff;
+    }
+  }
+  .bagBox {
+    font-family: sans-serif;
+    position: absolute;
+    display: table-row;
+    padding: 5px;
+    border: 0.3px solid rgb(236, 235, 235);
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    animation: fadein 1s;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+      
+    }
+    img {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right: 190px;
+      margin-top: 5px;
+      text-align: left;
+    }
+    .borderline {
+      width: 80%;
+      border-bottom: 0.3px solid rgb(207, 204, 204);
+      margin-left: 20px;
+    }
+    .productfee1 {
+      text-align: left;
+      position: absolute;
+      left: 150px;
+      font-size: 15px;
+      top: 50px;
+    }
+    .productfee2 {
+      text-align: left;
+      position: absolute;
+      left: 150px;
+      font-size: 15px;
+      top: 180px;
+    }
+    .productPriceLine1 {
+      text-align: left;
+      position: absolute;
+      left: 150px;
+      font-size: 15px;
+      top: 50px;
+      transition: all 0.2s ease-in-out;
+      span {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+      }
+      &:hover {
+        color: #a749ff;
+      }
+    }
+    .sellButton {
+      background-color: unset;
+      height: 50px;
+      width: 270px;
+      font-size: 15px;
+    }
+    .productPriceLine2 {
+      text-align: left;
+      position: absolute;
+      left: 150px;
+      font-size: 15px;
+      top: 180px;
+      transition: all 0.2s ease-in-out;
+      span {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+      }
+      &:hover {
+        color: #a749ff;
+      }
+    }
+  }
+
+  .searchBox {
+    font-family: sans-serif;
+    position: absolute;
+    width: 100;
+    display: flex;
+    padding: 10px;
+    border: 0.3px solid rgb(216, 216, 216);
+    transition: all 3s ease-in-out;
+    animation: fadein 1s;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+      
+    }
+    input {
+      font-size: 15px;
+      height: 40px;
+      border: 0.9 solid rgb(237, 237, 237);
+    }
+    button {
+      height: 40px;
+      background-color: #a749ff;
+      border: none;
+      color: #ffffff;
+      margin-left: 0.5px;
+      border: 1px #555252 solid;
+    }
+  }
+  .noteBox {
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+    right: 180px;
+    flex-direction: column;
+    padding: 10px;
+    border: 0.3px solid rgb(236, 235, 235);
+    text-align: left;
+    cursor: pointer;
+    animation: fadein 1s;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+      
+    }
+    h1 {
+      font-size: 15px;
+      padding-bottom: 3px;
+      padding: 5px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        padding-left: 20px;
+        color: #a749ff;
+      }
+    }
+  }
+}
+
+
+
+
+
+

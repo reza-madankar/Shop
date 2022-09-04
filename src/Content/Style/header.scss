@@ -9,7 +9,8 @@
   font-size: 15px;
   line-height: 60px;
   color: #555252;
-
+  right: 0;
+  left: 0;
   .drpMenu {
     display: flex;
 
@@ -60,9 +61,9 @@
 #menu {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  z-index: 999;
   .overlay {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -70,20 +71,28 @@
     background-color: #ffffff00;
     z-index: 0;
     cursor: pointer;
+  
   }
   .logo {
-    width: 25%;
+    h1 {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      margin-left: 0;
+      font-size: 40px;
+    }
+  
   }
   .navDropdownhead {
     @include boldtext;
   }
 
   .menus {
+    margin-left: 100px;
     width: 50%;
     display: flex;
     justify-content: space-between;
     line-height: 35px;
     font-size: 20px;
+    
 
     a {
       color: #666666;
@@ -174,7 +183,6 @@
       to {
         opacity: 1;
       }
-      
     }
     img {
       padding-top: 20px;
@@ -258,7 +266,6 @@
       to {
         opacity: 1;
       }
-      
     }
     input {
       font-size: 15px;
@@ -292,7 +299,6 @@
       to {
         opacity: 1;
       }
-      
     }
     h1 {
       font-size: 15px;
@@ -306,9 +312,3 @@
     }
   }
 }
-
-
-
-
-
-

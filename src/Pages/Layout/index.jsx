@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import TopHeader from "./component/topHeader";
 import Menu from "./component/menu";
 import Footer from "./component/footer";
-import Overview from "./component/overview";
+
 
 
 import "../../Content/Style/layout.scss";
@@ -18,7 +18,6 @@ const Layout = ({ children }) => {
       <section className="menuHeader">
         <Container>
           <Menu />
-          <Overview />
           <Footer />
         </Container>
       </section>

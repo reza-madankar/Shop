@@ -24,6 +24,10 @@ function Overview() {
             </p>
           </div>
           <div className="banner-area">
+<<<<<<< HEAD
+=======
+          
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
             <div className="container">
               <div className="row">
                 <div className="col-product">
@@ -72,8 +76,14 @@ function Overview() {
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
           </div>
 
+=======
+            </div>
+            
+            
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
           <div className="vision-type">
             <div className="OurVision">
               <h2>Our Vission</h2>
@@ -101,7 +111,11 @@ function Overview() {
             </div>
           </div>
           <div className="count-type">
+<<<<<<< HEAD
             <div className="count-icon">
+=======
+            <div className="count-iconFirst">
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
               <div className="count-i1st">
                 <div className="count-i1">
                   <img
@@ -113,7 +127,11 @@ function Overview() {
                 <span>Project Done</span>
               </div>
             </div>
+<<<<<<< HEAD
             <div className="count-icon">
+=======
+            <div className="count-iconFirst">
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
               <div className="count-i2sec">
                 <div className="count-i2">
                   <img
@@ -125,16 +143,30 @@ function Overview() {
                 <span>Cups Of Coffee</span>
               </div>
             </div>
+<<<<<<< HEAD
             <div className="count-icon">
               <div className="count-i3rd">
                 <div className="count-i3">
                   <img src="https://img.icons8.com/dotty/2x/light.png" alt="" />
+=======
+            <div className="count-iconFirst">
+              <div className="count-i3rd">
+                <div className="count-i3">
+                  <img
+                    src="https://img.icons8.com/carbon-copy/2x/light.png"
+                    alt=""
+                  />
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
                 </div>
                 <h1>360</h1>
                 <span>Branding</span>
               </div>
             </div>
+<<<<<<< HEAD
             <div className="count-icon">
+=======
+            <div className="count-iconFirst">
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
               <div className="count-i4th">
                 <div className="count-i4">
                   <img src="https://img.icons8.com/ios/2x/happy.png" alt="" />
@@ -148,46 +180,68 @@ function Overview() {
             <h1>Team Members</h1>
             <p>Lorem ipsum dolor sit amet conse ctetu.</p>
           </div>
+<<<<<<< HEAD
           <div className="members-info">
             <div className="members-name-job">
               <div className="members-picture">
+=======
+          <div className="members-picture">
+            <div className="members-name">
+              <div className="members-job">
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-1.jpg"
                   alt=""
                 />
+<<<<<<< HEAD
               </div>
               <h1>Mr.Mike Banding</h1>
               <span>Manager</span>
             </div>
             <div className="members-name-job">
               <div className="members-picture">
+=======
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-3.jpg"
                   alt=""
                 />
+<<<<<<< HEAD
               </div>
               <h1>Mr.Peter Pan</h1>
               <span>Developer</span>
             </div>
             <div className="members-name-job">
               <div className="members-picture">
+=======
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-2.jpg"
                   alt=""
                 />
+<<<<<<< HEAD
               </div>
               <h1>Ms.Sophia</h1>
               <span>Designer</span>
             </div>
             <div className="members-name-job">
               <div className="members-picture">
+=======
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-4.jpg"
                   alt=""
                 />
               </div>
+<<<<<<< HEAD
               <h1>Mr.John Lee</h1>
               <span>Chairmen</span>
+=======
+              <h1>Hooman</h1>
+              <h1>Hooman</h1>
+              <h1>Hooman</h1>
+              <h1>Hooman</h1>
+>>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
             </div>
           </div>
           <div className="companyLogo">

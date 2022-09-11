@@ -140,28 +140,28 @@
         font-size: 20px;
       }
       p {
-        
         font-size: 14px;
       }
     }
   }
   .count-type {
-    padding: 10rem;
+    padding: 100px 0 100px 0;
+    justify-content: center;
+    text-align: center;
     background-color: #f7f7f7;
     display: flex;
-
-    justify-content: space-between;
-
-    .count-iconFirst {
-      img {
-        margin-left: 35px;
+    gap: 100px;
+    @media screen and (max-width: 1024px) {
+      & {
+        flex-direction: column;
+        text-align: center;
       }
-
+    }
+    .count-icon {
       .count-i1st {
         h1 {
           color: #a749ff;
           font-size: 40px;
-          padding: 10px;
         }
         span {
           color: #333;
@@ -175,13 +175,11 @@
           }
         }
       }
-    }
-    .count-iconFirst {
+
       .count-i2sec {
         h1 {
           color: #a749ff;
           font-size: 40px;
-          padding: 10px;
         }
         span {
           color: #333;
@@ -196,45 +194,39 @@
         }
       }
     }
-    .count-iconFirst {
-      .count-i3rd {
-        h1 {
-          color: #a749ff;
-          font-size: 40px;
-          padding: 10px;
-        }
-        span {
-          margin-left: 10px;
-          color: #333;
-          font-size: 20px;
-          font-weight: 500;
-        }
-        .count-i3 {
-          img {
-            margin-right: 30px;
-            height: 5rem;
-            width: 5rem;
-          }
+
+    .count-i3rd {
+      h1 {
+        color: #a749ff;
+        font-size: 40px;
+      }
+      span {
+        color: #333;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .count-i3 {
+        img {
+          height: 5rem;
+          width: 5rem;
         }
       }
     }
-    .count-iconFirst {
-      .count-i4th {
-        h1 {
-          color: #a749ff;
-          font-size: 40px;
-          padding: 10px;
-        }
-        span {
-          color: #333;
-          font-size: 20px;
-          font-weight: 500;
-        }
-        .count-i4 {
-          img {
-            height: 5rem;
-            width: 5rem;
-          }
+
+    .count-i4th {
+      h1 {
+        color: #a749ff;
+        font-size: 40px;
+      }
+      span {
+        color: #333;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .count-i4 {
+        img {
+          height: 5rem;
+          width: 5rem;
         }
       }
     }
@@ -258,19 +250,33 @@
       margin-top: 5rem;
     }
   }
-  .members-picture {
-    margin-top: 10rem;
+  .members-info {
+    @media screen and (max-width: 1024px) {
+      & {
+        flex-direction: column;
+      }
+    }
+    
+    padding: 100px 0 100px 0px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    img {
-      height: 30rem;
-      padding-left: 1rem;
+    gap: 30px;
+   text-align: center;
+    .members-name-job {
+      background-color: #f7f7f7;
+      padding-bottom: 80px;
+      
+      h1 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0 0 3px;
+        text-transform: capitalize;
+      }
+      span {
+        font-size: 15px;
+        font-style: italic;
+      }
     }
-    .members-name {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
+    
   }
   .companyLogo {
     img {

@@ -24,7 +24,6 @@ function Overview() {
             </p>
           </div>
           <div className="banner-area">
-          
             <div className="container">
               <div className="row">
                 <div className="col-product">
@@ -73,9 +72,8 @@ function Overview() {
                 </div>
               </div>
             </div>
-            </div>
-            
-            
+          </div>
+
           <div className="vision-type">
             <div className="OurVision">
               <h2>Our Vission</h2>
@@ -103,7 +101,7 @@ function Overview() {
             </div>
           </div>
           <div className="count-type">
-            <div className="count-iconFirst">
+            <div className="count-icon">
               <div className="count-i1st">
                 <div className="count-i1">
                   <img
@@ -115,7 +113,7 @@ function Overview() {
                 <span>Project Done</span>
               </div>
             </div>
-            <div className="count-iconFirst">
+            <div className="count-icon">
               <div className="count-i2sec">
                 <div className="count-i2">
                   <img
@@ -127,19 +125,16 @@ function Overview() {
                 <span>Cups Of Coffee</span>
               </div>
             </div>
-            <div className="count-iconFirst">
+            <div className="count-icon">
               <div className="count-i3rd">
                 <div className="count-i3">
-                  <img
-                    src="https://img.icons8.com/carbon-copy/2x/light.png"
-                    alt=""
-                  />
+                  <img src="https://img.icons8.com/dotty/2x/light.png" alt="" />
                 </div>
                 <h1>360</h1>
                 <span>Branding</span>
               </div>
             </div>
-            <div className="count-iconFirst">
+            <div className="count-icon">
               <div className="count-i4th">
                 <div className="count-i4">
                   <img src="https://img.icons8.com/ios/2x/happy.png" alt="" />
@@ -153,30 +148,46 @@ function Overview() {
             <h1>Team Members</h1>
             <p>Lorem ipsum dolor sit amet conse ctetu.</p>
           </div>
-          <div className="members-picture">
-            <div className="members-name">
-              <div className="members-job">
+          <div className="members-info">
+            <div className="members-name-job">
+              <div className="members-picture">
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-1.jpg"
                   alt=""
                 />
+              </div>
+              <h1>Mr.Mike Banding</h1>
+              <span>Manager</span>
+            </div>
+            <div className="members-name-job">
+              <div className="members-picture">
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-3.jpg"
                   alt=""
                 />
+              </div>
+              <h1>Mr.Peter Pan</h1>
+              <span>Developer</span>
+            </div>
+            <div className="members-name-job">
+              <div className="members-picture">
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-2.jpg"
                   alt=""
                 />
+              </div>
+              <h1>Ms.Sophia</h1>
+              <span>Designer</span>
+            </div>
+            <div className="members-name-job">
+              <div className="members-picture">
                 <img
                   src="https://template.hasthemes.com/flone/flone/assets/img/team/team-4.jpg"
                   alt=""
                 />
               </div>
-              <h1>Hooman</h1>
-              <h1>Hooman</h1>
-              <h1>Hooman</h1>
-              <h1>Hooman</h1>
+              <h1>Mr.John Lee</h1>
+              <span>Chairmen</span>
             </div>
           </div>
           <div className="companyLogo">

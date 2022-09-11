@@ -60,7 +60,12 @@
     .container {
       .row {
         .col-product {
+          overflow: hidden;
           .product-image {
+            transition: all 0.4s ease-in-out;
+            &:hover {
+              scale: 1.2;
+            }
           }
           .product-information {
             h3 {
@@ -140,16 +145,11 @@
         font-size: 20px;
       }
       p {
-<<<<<<< HEAD
-=======
-        
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
         font-size: 14px;
       }
     }
   }
   .count-type {
-<<<<<<< HEAD
     padding: 100px 0 100px 0;
     justify-content: center;
     text-align: center;
@@ -163,27 +163,10 @@
       }
     }
     .count-icon {
-=======
-    padding: 10rem;
-    background-color: #f7f7f7;
-    display: flex;
-
-    justify-content: space-between;
-
-    .count-iconFirst {
-      img {
-        margin-left: 35px;
-      }
-
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
       .count-i1st {
         h1 {
           color: #a749ff;
           font-size: 40px;
-<<<<<<< HEAD
-=======
-          padding: 10px;
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
         }
         span {
           color: #333;
@@ -197,20 +180,10 @@
           }
         }
       }
-<<<<<<< HEAD
-
-=======
-    }
-    .count-iconFirst {
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
       .count-i2sec {
         h1 {
           color: #a749ff;
           font-size: 40px;
-<<<<<<< HEAD
-=======
-          padding: 10px;
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
         }
         span {
           color: #333;
@@ -225,7 +198,6 @@
         }
       }
     }
-<<<<<<< HEAD
 
     .count-i3rd {
       h1 {
@@ -259,47 +231,6 @@
         img {
           height: 5rem;
           width: 5rem;
-=======
-    .count-iconFirst {
-      .count-i3rd {
-        h1 {
-          color: #a749ff;
-          font-size: 40px;
-          padding: 10px;
-        }
-        span {
-          margin-left: 10px;
-          color: #333;
-          font-size: 20px;
-          font-weight: 500;
-        }
-        .count-i3 {
-          img {
-            margin-right: 30px;
-            height: 5rem;
-            width: 5rem;
-          }
-        }
-      }
-    }
-    .count-iconFirst {
-      .count-i4th {
-        h1 {
-          color: #a749ff;
-          font-size: 40px;
-          padding: 10px;
-        }
-        span {
-          color: #333;
-          font-size: 20px;
-          font-weight: 500;
-        }
-        .count-i4 {
-          img {
-            height: 5rem;
-            width: 5rem;
-          }
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
         }
       }
     }
@@ -314,7 +245,7 @@
         height: 3px;
         width: 70px;
         content: "";
-        margin-top: 118rem;
+        margin-top: 108rem;
       }
     }
     p {
@@ -323,22 +254,22 @@
       margin-top: 5rem;
     }
   }
-<<<<<<< HEAD
   .members-info {
     @media screen and (max-width: 1024px) {
       & {
         flex-direction: column;
       }
     }
-    
+
     padding: 100px 0 100px 0px;
     display: flex;
     gap: 30px;
-   text-align: center;
+    text-align: center;
+    justify-content: center;
     .members-name-job {
       background-color: #f7f7f7;
       padding-bottom: 80px;
-      
+
       h1 {
         font-size: 18px;
         font-weight: 500;
@@ -350,27 +281,20 @@
         font-style: italic;
       }
     }
-    
-=======
-  .members-picture {
-    margin-top: 10rem;
+  }
+  .company {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    img {
-      height: 30rem;
-      padding-left: 1rem;
-    }
-    .members-name {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
->>>>>>> eca73770f91cfcd91ea4dd8300c7907d7e29bc64
-  }
-  .companyLogo {
-    img {
-      display: inline-flex;
-      margin: 5rem 5rem 0 5rem;
+
+    text-align: center;
+    justify-content: center;
+    .company-adv {
+      .companyLogo {
+        img {
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+      }
     }
   }
 }

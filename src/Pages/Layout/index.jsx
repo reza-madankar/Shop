@@ -1,8 +1,9 @@
 import { Container } from "react-bootstrap";
 import TopHeader from "./component/topHeader";
 import Menu from "./component/menu";
-
 import "../../Content/Style/layout.scss";
+import Overview from "./component/overview";
+
 
 const Layout = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <section className="menuHeader">
         <Container>
           <Menu />
+          <Overview />
         </Container>
       </section>
     </>

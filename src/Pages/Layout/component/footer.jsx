@@ -29,10 +29,12 @@ function Footer() {
           </div>
           <div className="footerCloumn">
             <ul className="tittleCloumn">FOLLOW US</ul>
-            <ul>Facebook</ul>
-            <ul>Twitter</ul>
-            <ul>Instagram</ul>
-            <ul>Youtube</ul>
+            <ul>
+              <li>Facebook</li>
+            <li>Twitter</li>
+           <li>Instagram</li>
+            <li>Youtube</li>
+            </ul>
           </div>
           <div className="footerCloumn">
             <ul className="tittleCloumn">SUBSCRIBE</ul>

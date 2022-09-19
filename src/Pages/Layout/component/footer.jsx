@@ -42,6 +42,7 @@ function Footer() {
               Get E-mail updates about our latest shop<br></br> and special
               offers.
             </ul>
+            
             <input
               className="emailInput"
               placeholder="Enter Your Email Here"
